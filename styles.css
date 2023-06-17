@@ -19,8 +19,12 @@ header {
 }
 
 .header-left h1 {
-    margin-right: 50px;  /* increase this value to add more space */
     font-size: 1em; 
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end; /* This will push nav to the right */
 }
 
 nav ul {
