@@ -19,6 +19,7 @@ header {
 
 .header-left h1 {
     margin-right: 0;
+    font-size: 20px; /* specify your desired font size here */
 }
 
 nav ul {
