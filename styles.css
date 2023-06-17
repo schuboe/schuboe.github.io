@@ -19,7 +19,8 @@ header {
 }
 
 .header-left h1 {
-    font-size: 1em; 
+    font-size: 1em;
+    margin-right: 50px; /* adjust this value as needed */
 }
 
 nav ul {
