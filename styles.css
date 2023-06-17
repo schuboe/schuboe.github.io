@@ -12,14 +12,14 @@ a {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
     padding: 1em;
     border-bottom: 1px solid #ddd;
 }
 
 .header-left h1 {
-    margin-right: 100px;
-    font-size: 1em; /* You can adjust this value as needed */
+    font-size: 1em; 
 }
 
 nav ul {
@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 1em; /* Make sure this value is the same as the value in .header-left h1 */
+    font-size: 1em; 
 }
 
 main {
