@@ -21,6 +21,11 @@ header {
     font-size: 1em; 
 }
 
+.header-right {
+    margin-left: 50px;  /* Adjust this value to increase/decrease the space to the left of the nav */
+}
+
+
 nav ul {
     list-style-type: none;
     margin: 0;
