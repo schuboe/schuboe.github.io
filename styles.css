@@ -36,11 +36,11 @@ header {
 
 .sidebar {
     width: 200px; /* adjust as needed */
-    padding-left: 40px; /* Adjust this to whatever value you want */
+    padding-left: 50px; /* Adjust this to whatever value you want */
 }
 
 .sidebar img {
-    width: 80%; /* makes the image fit the sidebar width */
+    width: 60%; /* makes the image fit the sidebar width */
     height: auto; /* maintains image aspect ratio */
 }
 
