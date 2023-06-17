@@ -12,6 +12,7 @@ a {
 
 header {
     display: flex;
+    justify-content: space-between; /* added this line */
     align-items: baseline;
     padding: 1em;
     border-bottom: 1px solid #ddd;
