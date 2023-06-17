@@ -24,7 +24,6 @@ header {
 
 .header-right {
     display: flex;
-    justify-content: flex-end; /* This will push nav to the right */
 }
 
 nav ul {
