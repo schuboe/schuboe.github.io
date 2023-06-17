@@ -60,7 +60,11 @@ header {
     margin-top: 20px;
 }
 
-.sidebar img, .sidebar .linkedin-link {
+.github-link {
+    margin-top: 20px;
+}
+
+.sidebar img, .sidebar .linkedin-link .github-link {
     display: block;
 }
 
