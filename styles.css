@@ -18,8 +18,8 @@ header {
 }
 
 .header-left h1 {
-    font-size: 1em;
-    margin-right: 50px; /* adjust this value as needed */
+    margin-right: 50px;  /* increase this value to add more space */
+    font-size: 1em; 
 }
 
 nav ul {
