@@ -21,10 +21,6 @@ header {
     font-size: 1em; 
 }
 
-.header-right {
-    display: flex;
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
