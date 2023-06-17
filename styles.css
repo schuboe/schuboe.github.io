@@ -18,8 +18,8 @@ header {
     border-bottom: 1px solid #ddd;
 }
 
-.header-left {
-    margin-right: 2em;
+.header-left h1 {
+    margin-right: 0;
 }
 
 nav ul {
