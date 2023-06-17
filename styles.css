@@ -44,6 +44,16 @@ header {
     height: auto; /* maintains image aspect ratio */
 }
 
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+
+
 .linkedin-link {
     margin-top: 20px;
 }
