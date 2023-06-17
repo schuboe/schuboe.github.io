@@ -18,7 +18,7 @@ header {
 }
 
 .header-left h1 {
-    margin-right: 0;
+    margin-right: 10;
     font-size: 1em; /* You can adjust this value as needed */
 }
 
