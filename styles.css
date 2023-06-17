@@ -48,6 +48,13 @@ header {
     margin-top: 20px;
 }
 
+.sidebar img, .sidebar .linkedin-link {
+    display: block;
+}
+
+
+
+
 nav ul {
     list-style-type: none;
     margin: 0;
