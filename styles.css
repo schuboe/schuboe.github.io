@@ -18,7 +18,7 @@ header {
 }
 
 .header-left h1 {
-    font-size: 2em; 
+    font-size: 1em; 
 }
 
 nav ul {
@@ -29,11 +29,11 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 nav ul li a {
-    font-size: 2em; 
+    font-size: 1em; 
 }
 
 main {
