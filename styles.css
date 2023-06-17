@@ -27,6 +27,33 @@ header {
 }
 
 
+
+
+
+
+
+.body-container {
+    display: flex;
+    align-items: flex-start; /* aligns the sidebar and main content at their tops */
+    gap: 20px; /* space between the sidebar and main content */
+}
+
+.sidebar {
+    width: 200px; /* adjust as needed */
+}
+
+.sidebar img {
+    width: 100%; /* makes the image fit the sidebar width */
+    height: auto; /* maintains image aspect ratio */
+}
+
+
+
+
+
+
+
+
 nav ul {
     list-style-type: none;
     margin: 0;
