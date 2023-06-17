@@ -44,6 +44,9 @@ header {
     height: auto; /* maintains image aspect ratio */
 }
 
+.linkedin-link {
+    margin-top: 20px;
+}
 
 nav ul {
     list-style-type: none;
