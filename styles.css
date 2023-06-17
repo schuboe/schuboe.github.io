@@ -1,24 +1,43 @@
 body {
   font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 0;
+  padding: 1em;
+  border-bottom: 1px solid #ddd;
 }
 
-.header .name {
+.name {
+  font-size: 1.2em;
   font-weight: bold;
-  font-size: 1em;
 }
 
-nav {
-  font-size: 1em;
+.name a {
+  text-decoration: none;
+  color: #333;
 }
 
-a {
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav a {
   text-decoration: none;
   color: #333;
 }
