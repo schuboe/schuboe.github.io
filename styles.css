@@ -53,6 +53,11 @@ header {
     margin-top: 40px;
 }
 
+.myLineSpace {
+    line-height: 1.5;
+}
+
+
 #myText {
     position: absolute;
     top: 20%;
