@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!-- Link to your CSS stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Link to FontAwesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Include jQuery library. jQuery is a popular JavaScript library that simplifies HTML document 
+         traversing, event handling, animating, and AJAX interactions for rapid web development. -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <!-- Create a script to load header and sidebar. The $(function(){ ... }) is shorthand for 
+         $(document).ready(function(){ ... }) and it means to execute the code inside once the entire 
+         page is ready. -->
+    <script>
+        $(function(){
+            // The load function takes a URL and retrieves the HTML from it, 
+            // then inserts that HTML into the selected element on your page.
+            // Here we are loading the content of header.html into the element with the id "header".
+            $("#header").load("header.html"); 
+
+            // Here we are loading the content of sidebar.html into the element with the id "sidebar".
+            $("#sidebar").load("sidebar.html");
+        });
+    </script>
 </head>
 <body>
-    <header>
-        <div class="header-left">
-            <h1><a href="index.html">Dr. Fabian Schubö</a></h1>
-        </div>
-        <div class="header-right">
-            <nav>
-                <ul>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="presentations.html">Talks & Posters</a></li>
-                    <li><a href="teaching.html">Teaching</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <!-- This is where the header will be loaded from header.html. The "id" attribute is used to uniquely 
+         identify this element so that we can target it with our jQuery script. -->
+    <div id="header"></div>
     
+    <!-- This is the main body of your page -->
     <div class="body-container">
-        <!-- new sidebar -->
-        <div class="sidebar">
-            <img src="images/pic4.jpg" alt="Dr. Fabian Schubö" class="profile-pic">
-            <p>
-                <a href="https://www.linkedin.com/in/fabian-schub%C3%B6-b704a3264/" target="_blank" class="linkedin-link">
-                    <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
-                </a>
-            </p>
-            <p>
-                <a href="https://github.com/schuboe/" target="_blank" class="github-link">
-                    <i class="fab fa-github"></i> <span>Github</span>
-                </a>
-            </p>
-            <p>
-                <a href="https://orcid.org/0000-0002-9956-2438/" target="_blank" class="orcid-link">
-                    <i class="fab fa-orcid"></i> <span>ORCiD</span>
-                </a>
-            </p>
-        </div>
-    <main>
-        <p>Welcome to my website!</p>
-    </main>
+        <!-- This is where the sidebar will be loaded from sidebar.html -->
+        <div id="sidebar"></div>
+        
+        <!-- The main unique content of your page goes here -->
+        <main>
+            <p>Welcome to my website!</p>
+        </main>
+    </div>
 </body>
 </html>
