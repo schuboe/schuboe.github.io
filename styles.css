@@ -21,10 +21,12 @@ header {
 .header-left h1 {
     font-size: 1.2em;
     margin-left: 40px;
+    color: #333333;
 }
 
 .header-right {
     margin-left: 50px;  /* Adjust this value to increase/decrease the space to the left of the nav */
+    color: #333333;
 }
 
 
