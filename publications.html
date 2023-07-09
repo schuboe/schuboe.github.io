@@ -3,49 +3,28 @@
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $("#header").load("header.html"); 
+            $("#sidebar").load("sidebar.html");
+        });
+    </script>
 </head>
 <body>
-    <header>
-        <div class="header-left">
-            <h1><a href="index.html">Dr. Fabian Schubö</a></h1>
-        </div>
-        <div class="header-right">
-            <nav>
-                <ul>
-                    <li><a href="publications.html">Publications</a></li>
-                    <li><a href="presentations.html">Talks & Posters</a></li>
-                    <li><a href="teaching.html">Teaching</a></li>
-                    <li><a href="cv.html">CV</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div id="header"></div>
     
     <div class="body-container">
-        <!-- new sidebar -->
-        <div class="sidebar">
-            <img src="images/pic4.jpg" alt="Dr. Fabian Schubö" class="profile-pic">
-            <p>
-                <a href="https://www.linkedin.com/in/fabian-schub%C3%B6-b704a3264/" target="_blank" class="linkedin-link">
-                    <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
-                </a>
-            </p>
-            <p>
-                <a href="https://github.com/schuboe/" target="_blank" class="github-link">
-                    <i class="fab fa-github"></i> <span>Github</span>
-                </a>
-            </p>
-            <p>
-                <a href="https://orcid.org/0000-0002-9956-2438/" target="_blank" class="orcid-link">
-                    <i class="fab fa-orcid"></i> <span>ORCiD</span>
-                </a>
-            </p>
-        </div>
-    <main>
-        <h2>Publications</h2>
-        <br>
-        <h3>Edited Volume</h3>
-        <p>Schubö, Fabian, Sabine Zerbian, Sandra Hanne und Isabel Wartenburger (Hrsg.). 2023. Prosodic boundary phenomena. (Studies in Laboratory Phonology).</p>
-    </main>
+        <div id="sidebar"></div>
+        <main>
+            <p id="myText">Here are my publications:</p>
+            
+            <ul>
+                <li>Publication 1</li>
+                <li>Publication 2</li>
+                <li>Publication 3</li>
+            </ul>
+        </main>
+    </div>
 </body>
 </html>
