@@ -55,8 +55,8 @@ header {
 
 #myText {
     position: absolute;
-    top: 10%;  /* Adjust these values to position the text where you want it */
-    left: 10%;
+    top: 20%;
+    left: 30%;
     text-align: left; 
     font-size: 1em;
     color: #333333;
