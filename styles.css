@@ -53,8 +53,14 @@ header {
     margin-top: 40px;
 }
 
-
-
+#myText {
+    position: absolute;
+    top: 50%;  /* Adjust these values to position the text where you want it */
+    left: 50%;
+    transform: translate(-50%, -50%);  /* This centers the text at the specified position */
+    font-size: 2em;  /* Adjust as needed */
+    color: #ffffff;  /* Adjust as needed */
+}
 
 .linkedin-link {
     margin-top: 60px;
