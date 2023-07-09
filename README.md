@@ -1,1 +1,3 @@
-# This is my github page.
+## Academic activities
+
+My research and teaching activities in linguistics
