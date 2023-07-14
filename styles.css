@@ -7,12 +7,7 @@ body {
 
 a {
     position: relative;
-    /* color: blue; */  /* Commented out this rule */
     text-decoration: none;
-}
-
-main ul li a {
-    color: blue;
 }
 
 header {
