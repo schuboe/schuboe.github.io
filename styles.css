@@ -92,7 +92,9 @@ a:before {
 a:hover:before {
     width: 100%;
     left: 0;
+    color: blue; 
 }
+
 
 
 
