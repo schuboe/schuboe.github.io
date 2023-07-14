@@ -78,16 +78,6 @@ header {
 }
 
 
-
-
-
-
-a {
-    position: relative;
-    color: #333333;;
-    text-decoration: none;
-}
-
 a:before {
     content: "";
     position: absolute;
