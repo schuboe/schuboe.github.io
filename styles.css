@@ -7,9 +7,16 @@ body {
 
 a {
     position: relative;
-    color: blue;
+    /* color: blue; */  /* Commented out this rule */
     text-decoration: none;
 }
+
+main a {
+    color: blue;
+}
+
+/* Rest of your CSS code... */
+
 
 
 header {
