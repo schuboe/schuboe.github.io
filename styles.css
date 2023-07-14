@@ -7,8 +7,23 @@ body {
 
 a {
     position: relative;
-    color: #333333;
     text-decoration: none;
+}
+
+header a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    background-color: #0D47A1;
+    transition: all 0.5s ease;
+}
+
+header a:hover:before {
+    width: 100%;
+    left: 0;
 }
 
 header {
@@ -26,11 +41,9 @@ header {
 }
 
 .header-right {
-    margin-left: 50px;  /* Adjust this value to increase/decrease the space to the left of the nav */
+    margin-left: auto;  /* Adjust this value to increase/decrease the space to the left of the nav */
     color: #333333;
 }
-
-
 
 .body-container {
     display: flex;
@@ -62,7 +75,6 @@ header {
     line-height: 1.5;
 }
 
-
 #myText {
     position: absolute;
     top: 20%;
@@ -75,31 +87,6 @@ header {
 .linkedin-link {
     margin-top: 60px;
 }
-
-
-a:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 1px;
-    bottom: 0;
-    left: 50%;
-    background-color: #0D47A1;
-    transition: all 0.5s ease;
-}
-
-a:hover:before {
-    width: 100%;
-    left: 0;
-}
-
-
-
-.blue {
-    color: #ADD8E6;
-}
-
-
 
 nav ul {
     list-style-type: none;
