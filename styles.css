@@ -19,6 +19,12 @@ header {
     color: #333333;
 }
 
+.header-left h1 {
+    font-size: 1.2em;
+    margin-left: 40px;
+    color: #333333;
+}
+
 .header-left h1 a:before, .header-right a:before {
     content: "";
     position: absolute;
@@ -34,6 +40,7 @@ header {
     width: 100%;
     left: 0;
 }
+
 
 
 .header-right {
