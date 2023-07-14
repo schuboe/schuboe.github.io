@@ -10,22 +10,6 @@ a {
     text-decoration: none;
 }
 
-header a:before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 1px;
-    bottom: 0;
-    left: 50%;
-    background-color: #0D47A1;
-    transition: all 0.5s ease;
-}
-
-header a:hover:before {
-    width: 100%;
-    left: 0;
-}
-
 header {
     display: flex;
     align-items: baseline;
@@ -45,22 +29,26 @@ header {
     color: #333333;
 }
 
+.header-right a:hover:before {
+    width: 100%;
+    left: 0;
+}
 
 .body-container {
     display: flex;
-    align-items: flex-start; /* aligns the sidebar and main content at their tops */
-    gap: 20px; /* space between the sidebar and main content */
+    align-items: flex-start; 
+    gap: 20px;
 }
 
 .sidebar {
-    width: 240px; /* adjust as needed */
-    padding-left: 50px; /* Adjust this to whatever value you want */
+    width: 240px; 
+    padding-left: 50px;
     color: #333333;
 }
 
 .sidebar img {
-    width: 60%; /* makes the image fit the sidebar width */
-    height: auto; /* maintains image aspect ratio */
+    width: 60%;
+    height: auto;
 }
 
 .profile-pic {
@@ -89,6 +77,17 @@ header {
     margin-top: 60px;
 }
 
+a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    background-color: #0D47A1;
+    transition: all 0.5s ease;
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -101,7 +100,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 1.2em; 
+    font-size: 1.2em;
 }
 
 main {
