@@ -11,13 +11,9 @@ a {
     text-decoration: none;
 }
 
-main a {
+main ul li a {
     color: blue;
 }
-
-/* Rest of your CSS code... */
-
-
 
 header {
     display: flex;
