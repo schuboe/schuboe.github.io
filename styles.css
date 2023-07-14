@@ -19,11 +19,22 @@ header {
     color: #333333;
 }
 
-.header-left h1 {
-    font-size: 1.2em;
-    margin-left: 40px;
-    color: #333333;
+.header-left h1 a:before, .header-right a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: 0;
+    left: 50%;
+    background-color: #0D47A1;
+    transition: all 0.5s ease;
 }
+
+.header-left h1 a:hover:before, .header-right a:hover:before {
+    width: 100%;
+    left: 0;
+}
+
 
 .header-right {
     margin-left: 50px; 
