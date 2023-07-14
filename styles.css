@@ -41,9 +41,10 @@ header {
 }
 
 .header-right {
-    margin-left: auto;  /* Adjust this value to increase/decrease the space to the left of the nav */
+    margin-left: 50px; 
     color: #333333;
 }
+
 
 .body-container {
     display: flex;
