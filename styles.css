@@ -6,9 +6,11 @@ body {
 }
 
 a {
+    position: relative;
+    color: blue;
     text-decoration: none;
-    color: #0D47A1;
 }
+
 
 header {
     display: flex;
