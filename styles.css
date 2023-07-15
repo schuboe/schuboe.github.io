@@ -122,6 +122,11 @@ nav ul li a {
     font-size: 1.2em;
 }
 
+li {
+    margin-bottom: 20px;  /* Adjust as needed */
+}
+
+
 main {
     padding: 1em;
     color: #333333;
