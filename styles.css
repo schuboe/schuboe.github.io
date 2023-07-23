@@ -83,10 +83,8 @@ header {
     line-height: 1.7;
 }
 
-#myText {
-    position: absolute;
-    top: 13%;
-    left: 24%;
+.myText {
+
     text-align: left; 
     font-size: 1.2em;
     color: #333333;
