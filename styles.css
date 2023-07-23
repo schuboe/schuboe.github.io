@@ -84,6 +84,7 @@ header {
 }
 
 .myText {
+    line-height: 1.7;
     text-align: left; 
     font-size: 1.2em;
     color: #333333;
