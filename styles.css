@@ -27,7 +27,7 @@ header {
 
 .header-left h1 a:before, .header-right a:before {
     content: "";
-    position: absolute;
+    position: relative;
     width: 0;
     height: 1px;
     bottom: 0;
