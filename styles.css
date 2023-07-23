@@ -84,9 +84,6 @@ header {
 }
 
 .myText {
-    position: absolute;
-    top: 13%;
-    left: 24%;
     text-align: left; 
     font-size: 1.2em;
     color: #333333;
