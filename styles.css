@@ -155,9 +155,10 @@ header a:visited, .sidebar a:visited {
     margin-top: 20px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 20px; /* Creates some space between the image and the text */
+.flex-container {
+    display: flex;
+    align-items: flex-start;  /* align items vertically at the start */
+    gap: 20px;  /* creates some space between the image and the text */
 }
 
 main {
