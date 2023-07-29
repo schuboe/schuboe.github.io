@@ -55,7 +55,7 @@ header {
 
 .body-container {
     display: flex;
-    align-items: flex-start; 
+    align-items: stretch; 
     gap: 20px;
     0 100px;
 }
@@ -170,4 +170,5 @@ main {
 main {
     padding: 1em;
     color: #333333;
+    margin-right: 20px;
 }
