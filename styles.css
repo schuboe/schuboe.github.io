@@ -126,6 +126,7 @@ li {
 }
 
 
+
 /* This will apply color to all the links */
 a {
     color: #1569C7;
@@ -135,6 +136,17 @@ a {
 header a, .sidebar a {
     color: inherit; /* This will make them inherit the color of the parent elements. */
 }
+
+/* Color for visited links */
+a:visited {
+    color: #4B0150;
+}
+
+/* Override the styles for the visited links in header and sidebar */
+header a:visited, .sidebar a:visited {
+    color: inherit; /* This will make visited links in the header and sidebar inherit the color of the parent elements */
+}
+
 
 
 main {
