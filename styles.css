@@ -126,14 +126,14 @@ li {
 }
 
 
-/* This will apply to all the links */
+/* This will apply color to all the links */
 a {
-    color: #00FFFF; /* Replace with your color */
+    color: #1569C7;
 }
 
 /* These will override the styles for the header and sidebar links */
 header a, .sidebar a {
-    color: inherit; /* This will make them inherit the color of the parent elements, which by default is black. You can set it to any color you want */
+    color: inherit; /* This will make them inherit the color of the parent elements. */
 }
 
 
