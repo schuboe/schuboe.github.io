@@ -164,4 +164,16 @@ header a:visited, .sidebar a:visited {
 main {
     padding: 1em;
     color: #333333;
+    
+You can achieve this by adding a max-width property to your main class in the CSS. This will limit the width of the content in your main section. You can then use margin: auto; to center this content, leaving equal space on either side.
+
+Add these properties to your main class:
+
+css
+Copy code
+main {
+    padding: 1em;
+    color: #333333;
+    max-width: 1200px;  /* adjust this value as per your requirements */
+    margin: auto;
 }
