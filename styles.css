@@ -147,7 +147,9 @@ header a:visited, .sidebar a:visited {
     color: inherit; /* This will make visited links in the header and sidebar inherit the color of the parent elements */
 }
 
-
+.underline-text {
+    text-decoration: underline;
+}
 
 main {
     padding: 1em;
