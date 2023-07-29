@@ -151,6 +151,10 @@ header a:visited, .sidebar a:visited {
     text-decoration: underline;
 }
 
+.img-margin {
+    margin-top: 20px;
+}
+
 main {
     padding: 1em;
     color: #333333;
