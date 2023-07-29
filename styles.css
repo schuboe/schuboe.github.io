@@ -162,9 +162,10 @@ header a:visited, .sidebar a:visited {
     gap: 20px;  /* creates some space between the image and the text */
 }
 
-main {
-    padding: 1em;
-    color: #333333;
+.content-wrapper {
+    max-width: 80%; /* You can adjust this percentage to get the desired width */
+    margin-right: auto; /* This will push the content to the left, leaving a margin on the right */
+}
     
 
 main {
