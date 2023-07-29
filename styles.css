@@ -163,7 +163,7 @@ header a:visited, .sidebar a:visited {
 }
 
 .content-wrapper {
-    max-width: 80%; /* You can adjust this percentage to get the desired width */
+    max-width: 85%; /* You can adjust this percentage to get the desired width */
     margin-right: auto; /* This will push the content to the left, leaving a margin on the right */
 }
     
