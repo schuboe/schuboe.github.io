@@ -155,6 +155,11 @@ header a:visited, .sidebar a:visited {
     margin-top: 20px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 20px; /* Creates some space between the image and the text */
+}
+
 main {
     padding: 1em;
     color: #333333;
