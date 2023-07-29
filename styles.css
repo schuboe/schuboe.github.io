@@ -170,6 +170,4 @@ main {
 main {
     padding: 1em;
     color: #333333;
-    width: 80%;  /* Adjust this to change the width of the main content */
-    margin: auto;  /* Centers the main content */
 }
