@@ -196,10 +196,10 @@ header a:visited, .sidebar a:visited {
 }
 
 footer {
-    background-color: #D3D3D3; /* Change this to the desired light gray color */
+    background-color: #F0F0F0; /* Change this to the desired light gray color */
     border-top: 1px solid #BEBEBE; /* Change this to the desired dark gray color */
     text-align: left;
-    padding: 10px;
+    padding: 50px;
     left: 0;
     bottom: 0;
     width: 100%;
