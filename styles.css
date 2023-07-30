@@ -95,6 +95,10 @@ header {
     object-fit: cover;
     margin-left: 8px;
     margin-top: 40px;
+
+    /* Frame around the pic */
+    border: 2px solid white; /* adjust thickness as needed */
+    box-shadow: 0 0 0 1px grey; /* adjust thickness as needed */
 }
 
 .myLineSpace {
