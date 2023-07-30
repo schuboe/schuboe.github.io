@@ -96,6 +96,11 @@ header {
     margin-top: 60px;
 }
 
+.email-link {
+   margin-top: 60px;
+}
+
+
 a:before {
     content: "";
     position: absolute;
@@ -166,7 +171,7 @@ header a:visited, .sidebar a:visited {
     max-width: 95%; /* You can adjust this percentage to get the desired width */
     margin-right: auto; /* This will push the content to the left, leaving a margin on the right */
 }
-    
+   
 
 main {
     padding: 1em;
