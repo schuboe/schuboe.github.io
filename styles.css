@@ -33,7 +33,7 @@ header {
 
 
 
-
+/*
 .header-left h1 a:before, .header-right a:before {
     content: "";
     position: relative;
@@ -65,7 +65,7 @@ a:before {
     transition: all 0.5s ease;
 }
 
-
+*/
 
 
 
