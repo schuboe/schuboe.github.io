@@ -199,8 +199,8 @@ footer {
     background-color: #F0F0F0; /* Change this to the desired light gray color */
     border-top: 1px solid #BEBEBE; /* Change this to the desired dark gray color */
     text-align: left;
-    padding: 50px;
-    left: 0;
+    padding: 5px;
+    left: 20;
     bottom: 0;
     width: 100%;
     color: #A9A9A9; /* Change this to the color you want for the text */
