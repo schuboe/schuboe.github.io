@@ -97,8 +97,8 @@ header {
     margin-top: 40px;
 
     /* Frame around the pic */
-    border: 4px solid white; /* adjust thickness as needed */
-    box-shadow: 0 0 0 1px light grey; /* adjust thickness as needed */
+    border: 5px solid white; /* adjust thickness as needed */
+    box-shadow: 0 0 0 1px #e7e7e7; /* adjust thickness as needed */
 }
 
 .myLineSpace {
