@@ -194,7 +194,19 @@ header a:visited, .sidebar a:visited {
     max-width: 95%; /* You can adjust this percentage to get the desired width */
     margin-right: auto; /* This will push the content to the left, leaving a margin on the right */
 }
-   
+
+footer {
+    background-color: #d3d3d3; /* Change this to the desired light gray color */
+    border-top: 1px solid #A9A9A9; /* Change this to the desired dark gray color */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black; /* Change this to the color you want for the text */
+}
+
 
 main {
     padding: 1em;
