@@ -191,8 +191,13 @@ header a:visited, .sidebar a:visited {
 }
 
 .content-wrapper {
-    max-width: 95%; /* You can adjust this percentage to get the desired width */
-    margin-right: 60vw; /* This will push the content to the left, leaving a margin on the right */
+    max-width: 70vw; /* Limits the width to 70% of the viewport width */
+    margin-right: auto; /* Keeps existing alignment behavior */
+    margin-left: auto; /* Optionally centers the content if that's desired */
+    /*
+    max-width: 95%; You can adjust this percentage to get the desired width 
+    margin-right: 60vw; This will push the content to the left, leaving a margin on the right
+    */
 }
 
 footer {
