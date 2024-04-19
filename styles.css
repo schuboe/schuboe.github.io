@@ -191,7 +191,7 @@ header a:visited, .sidebar a:visited {
 }
 
 .content-wrapper {
-    max-width: 70vw; /* Limits the width to 70% of the viewport width */
+    max-width: 60vw; /* Limits the width to 70% of the viewport width */
     margin-right: auto; /* Keeps existing alignment behavior */
     margin-left: auto; /* Optionally centers the content if that's desired */
     /*
