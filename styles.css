@@ -29,7 +29,25 @@ header {
 
 
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-container {
+    flex: 1;
+}
+
+footer {
+    width: 100%;
+}
 
 
 
