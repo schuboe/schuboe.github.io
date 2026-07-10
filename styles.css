@@ -5,6 +5,11 @@ body {
     background-color: #FEFEFE;
 }
 
+.body-container {
+    flex: 1;
+}
+
+
 a {
     position: relative;
     text-decoration: none;
