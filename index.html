@@ -18,7 +18,30 @@
             // The load function takes a URL and retrieves the HTML from it, 
             // then inserts that HTML into the selected element on your page.
             // Here we are loading the content of header.html into the element with the id "header".
-            $("#header").load("header.html"); 
+            $("#header").load("header.html");
+
+
+$(function () {
+    $("#header").load("header.html", function () {
+
+        // Aktuelle Datei ermitteln
+        const page = window.location.pathname.split("/").pop() || "index.html";
+
+        // Passenden Link markieren
+        $('#header nav a').each(function () {
+            if ($(this).attr('href') === page) {
+                $(this).addClass('active');
+            }
+        });
+
+    });
+
+    $("#sidebar").load("sidebar.html");
+});
+
+
+
+            
 
             // Here we are loading the content of sidebar.html into the element with the id "sidebar".
             $("#sidebar").load("sidebar.html");
