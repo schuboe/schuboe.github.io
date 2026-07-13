@@ -71,13 +71,13 @@ footer {
 
 
 
+header nav a {
+    font-weight: normal;
+}
 
-
-
-
-
-
-
+header nav a.active {
+    font-weight: bold;
+}
 
 
 .header-right {
